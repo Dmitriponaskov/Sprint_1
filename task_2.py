@@ -1,7 +1,7 @@
 class Tester:
     def __init__(self, name):  # добавляю self, исправлено присваивание
         self.name = name
-        self.deadline = True  # сохраняю как атрибут экземпляра
+
 
     def work_hard(self, deadline=True):
         if deadline:  # использую переданный параметр deadline, а не self.deadline
